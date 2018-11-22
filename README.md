@@ -1,8 +1,8 @@
 
-<img src="https://media.giphy.com/media/2UwGJoDlGIs4elGa5W/giphy.gif" width="900" height="440" />
+<img src="https://media.giphy.com/media/2UwGJoDlGIs4elGa5W/giphy.gif" width="900" height="340" />
 
 # Dynamic Wallpaper
-Dynamic Wallpaper For gnome distrub Like Mac Os Mojave, in fact  this project was made by kia hamedi for mate and cinnamon but I edit it for gnome.
+Dynamic Wallpaper For gnome distrub Like Mac Os Mojave.
 
 
 ## By 
@@ -21,9 +21,10 @@ Thanks for  [<b>Kia Hamedi</b>](https://t.me/happy722) to help.<br>
 
 ## Use
 
-To run the project from the command line, go to the project folder and copy all files into your <b>Pictures</b> folder and type in your terminal :
+To run the project from the command line, go to the project folder and type in your terminal :
 ```
-chmod +x dynamicWallpaper.sh
+chmod +x install.sh
+
+./install.sh
 ```
-and add the .sh file to your startup
 
