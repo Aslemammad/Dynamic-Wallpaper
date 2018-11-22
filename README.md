@@ -1,5 +1,5 @@
 
-<img src="https://media.giphy.com/media/2UwGJoDlGIs4elGa5W/giphy.gif" width="900" height="340" />
+<img src="https://media.giphy.com/media/2UwGJoDlGIs4elGa5W/giphy.gif" width="900" height="440" />
 
 # Dynamic Wallpaper
 Dynamic Wallpaper For gnome distrub Like Mac Os Mojave, in fact  this project was made by kia hamedi for mate and cinnamon but I edit it for gnome.
