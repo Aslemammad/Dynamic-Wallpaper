@@ -13,4 +13,5 @@ echo "Name=dd" >> ~/Pictures/dynamicWallpaper.sh.desktop
 echo "Comment[en_US]=" >> ~/Pictures/dynamicWallpaper.sh.desktop
 echo "Comment=" >> ~/Pictures/dynamicWallpaper.sh.desktop
 cp ~/Pictures/dynamicWallpaper.sh.desktop ~/.config/autostart/
+reboot
 
