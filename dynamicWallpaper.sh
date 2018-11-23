@@ -20,7 +20,7 @@ do
   fi
   if [ $hour == 10 ]
   then
-      gsettings set org.gnome.desktop.background picture-uri~/Pictures/DynamicWallpaperForLinux-master/mojave_dynamic_5.jpeg
+      gsettings set org.gnome.desktop.background picture-uri ~/Pictures/DynamicWallpaperForLinux-master/mojave_dynamic_5.jpeg
   fi
   if [ $hour == 11 ]
   then
