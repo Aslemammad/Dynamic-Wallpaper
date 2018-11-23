@@ -2,7 +2,7 @@
 <img src="https://media.giphy.com/media/e61MLMStTLuxYzud1Q/giphy.gif" width="900" height="340" />
 
 # Dynamic Wallpaper
-Dynamic Wallpaper For gnome distrub Like Mac Os Mojave.
+Dynamic Wallpaper For gnome distrub Like Mac Os Mojave.it will change your background as the time .
 
 
 ## By 
