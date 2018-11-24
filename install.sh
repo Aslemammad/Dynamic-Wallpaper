@@ -1,17 +1,17 @@
 #/bin/bash
 touch ~/Pictures/dynamicWallpaper.sh.desktop
-cp * ~/Pictures/
-chmod +x ~/Pictures/dynamicWallpaper.sh
-echo "[Desktop Entry]" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Type=Application" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Exec=/home/$USER/Pictures/dynamicWallpaper.sh" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Hidden=false" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "NoDisplay=false" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "X-GNOME-Autostart-enabled=true" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Name[en_US]=dd" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Name=dd" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Comment[en_US]=" >> ~/Pictures/dynamicWallpaper.sh.desktop
-echo "Comment=" >> ~/Pictures/dynamicWallpaper.sh.desktop
-cp ~/Pictures/dynamicWallpaper.sh.desktop ~/.config/autostart/
-echo "for finish the installing you should log out or reboot"
-
+mkdir ~/Pictures/DW/
+cp * ~/Pictures/DW/
+chmod +x ~/Pictures/DW/dynamicWallpaper.sh
+echo "[Desktop Entry]" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Type=Application" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Exec=/home/$USER/Pictures/DW/dynamicWallpaper.sh" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Hidden=false" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "NoDisplay=false" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "X-GNOME-Autostart-enabled=true" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Name[en_US]=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Name=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Comment[en_US]=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Comment=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
+cp ~/Pictures/DW/dynamicWallpaper.sh.desktop ~/.config/autostart/
+echo "to complete you should log out or reboot"
