@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 touch ~/Pictures/dynamicWallpaper.sh.desktop
 mkdir ~/Pictures/DW/
 cp * ~/Pictures/DW/
