@@ -1,5 +1,5 @@
 
-<img src="https://media.giphy.com/media/e61MLMStTLuxYzud1Q/giphy.gif" width="900" height="340" />
+<img src="https://media.giphy.com/media/e61MLMStTLuxYzud1Q/giphy.gif" width="900" height="500" />
 
 # Dynamic Wallpaper
 Dynamic Wallpaper For gnome desktop Like Mac Os Mojave.it will change your background as the time .
