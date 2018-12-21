@@ -1,7 +1,7 @@
 #!/bin/bash
 touch ~/Pictures/dynamicWallpaper.sh.desktop
 mkdir ~/Pictures/DW/
-cp * ~/Pictures/DW/
+cp -r * ~/Pictures/DW/
 chmod +x ~/Pictures/DW/dynamicWallpaper.sh
 echo "[Desktop Entry]" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
 echo "Type=Application" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
@@ -13,5 +13,5 @@ echo "Name[en_US]=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
 echo "Name=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
 echo "Comment[en_US]=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
 echo "Comment=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-cp ~/Pictures/DW/dynamicWallpaper.sh.desktop ~/.config/autostart/
+cp -r ~/Pictures/DW/dynamicWallpaper.sh.desktop ~/.config/autostart/
 echo "to complete you should log out or reboot"
