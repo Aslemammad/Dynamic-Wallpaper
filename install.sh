@@ -1,17 +1,17 @@
 #!/bin/bash
-touch ~/Pictures/dynamicWallpaper.sh.desktop
-mkdir ~/Pictures/DW/
-cp -r * ~/Pictures/DW/
-chmod +x ~/Pictures/DW/dynamicWallpaper.sh
-echo "[Desktop Entry]" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Type=Application" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Exec=/home/$USER/Pictures/DW/dynamicWallpaper.sh" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Hidden=false" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "NoDisplay=false" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "X-GNOME-Autostart-enabled=true" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Name[en_US]=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Name=dd" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Comment[en_US]=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-echo "Comment=" >> ~/Pictures/DW/dynamicWallpaper.sh.desktop
-cp -r ~/Pictures/DW/dynamicWallpaper.sh.desktop ~/.config/autostart/
+e=$(whoami)
+touch /home/$e/Pictures/dynamicWallpaper.sh.desktop
+mkdir /home/$e/Pictures/DW/
+cp -r * /home/$e/Pictures/DW/
+echo "[Desktop Entry]" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Type=Application" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Exec=/home/$e/Pictures/DW/dynamicWallpaper.sh" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Hidden=false" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "NoDisplay=false" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "X-GNOME-Autostart-enabled=true" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Name[en_US]=dd" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Name=dd" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Comment[en_US]=" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+echo "Comment=" >> /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop
+cp -r /home/$e/Pictures/DW/dynamicWallpaper.sh.desktop /home/$e/.config/autostart/
 echo "to complete you should log out or reboot"
