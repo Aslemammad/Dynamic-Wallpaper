@@ -14,11 +14,6 @@ Project was edited  by:
 - Github : [github.com/MBAbiat](https://github.com/MBAbiat)<br>
 This is very useful script 
 
-## Thanks for
-
-Thanks for  [<b>Kia Hamedi</b>](https://t.me/happy722) to help.<br>
-<b>wrote in Thursday,  November 22, 2018</b>
-
 ## Use
 
 To run the project from the command line, go to the project folder and type in your terminal :
